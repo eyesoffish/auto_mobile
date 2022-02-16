@@ -46,7 +46,7 @@ import uiautomator2 as u2
 # 启动远程
 # adb shell /data/local/tmp/atx-agent server
 # #确认可以看到设备信息
-# alias for u2.connect_wifi('10.0.0.1')
+# devices offline -> adb kill-server , adb start-server
 # d = u2.connect_wifi('10.10.105.9')
 # search = d(resourceId="com.tencent.qt.qtl:id/search_input")
 # search.click()
